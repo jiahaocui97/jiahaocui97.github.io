@@ -22,9 +22,9 @@
   <entry>
     <title>Symbol 关键字</title>
     <url>/2022/01/14/My-New-Post/</url>
-    <content><![CDATA[<h3 id="ES6新增数据类型"><a href="#ES6新增数据类型" class="headerlink" title="ES6新增数据类型"></a>ES6新增数据类型</h3><p>ES6 引入了一种新的原始数据类型<label style="color:#7B2A03">Symbol</label>，表示独一无二的值。它是 JavaScript 语言的第七种数据类型，前六种是：undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。<span id="more"></span><br>Symbol 值通过Symbol函数生成。这就是说，对象的属性名现在可以有两种类型，一种是原来就有的字符串，另一种就是新增的 Symbol 类型。凡是属性名属于 Symbol 类型，就都是独一无二的，可以保证不会与其他属性名产生冲突。</p>
+    <content><![CDATA[<h3 id="ES6新增数据类型"><a href="#ES6新增数据类型" class="headerlink" title="ES6新增数据类型"></a>ES6新增数据类型</h3><p>ES6 引入了一种新的原始数据类型 Symbol ，表示独一无二的值。它是 JavaScript 语言的第七种数据类型，前六种是： undefined 、 null 、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。<span id="more"></span><br>Symbol 值通过Symbol函数生成。这就是说，对象的属性名现在可以有两种类型，一种是原来就有的字符串，另一种就是新增的 Symbol 类型。凡是属性名属于 Symbol 类型，就都是独一无二的，可以保证不会与其他属性名产生冲突。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">let</span> s = Symbol();</span><br><span class="line">typeof s</span><br><span class="line">// <span class="string">&quot;symbol</span></span><br></pre></td></tr></table></figure>
-
+<p>上面代码中，变量 s 就是一个独一无二的值。 typeof 运算符的结果，表明变量 s 是 Symbol 数据类型，而不是字符串之类的其他类型。</p>
 ]]></content>
       <categories>
         <category>es6</category>

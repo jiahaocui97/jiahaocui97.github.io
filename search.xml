@@ -48,7 +48,7 @@
       </tags>
   </entry>
   <entry>
-    <title>手撕instanceof</title>
+    <title>instanceof</title>
     <url>/2022/06/04/instcaneof/</url>
     <content><![CDATA[<p>instanceof运算符的作用是返回一个布尔值，表示对象是否为某个构造函数的实例，一般用来判断引用数据类型，手动实现instanceof功能代码如下：</p>
 <span id="more"></span>
